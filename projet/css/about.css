@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: snow;
+}
+.container{
+	display: -webkit-flex;
+	flex-flow:wrap;
+	justify-content: center;
+	min-width: 1500px;
+}
+.heading{
+	width: 100%;
+	height: 90px;
+	background-color: purple;
+	display: -webkit-flex;
+}
+
+.heading_title{
+	
+	font-family: arial,helvetica,sans-serif;
+	font-size: 150%;
+	color: white;
+	}
+.heading_nav{
+	padding-top: 30px;
+	width: 80%;
+	height: 30px;
+}
+.heading_navbar{
+	width: 8%;
+}
+.heading_navbar ul{
+	margin-left:2%;
+	justify-content: flex-end;
+	list-style-type: none;
+	padding-top:40px;
+	padding-bottom: 6px;
+	width: 200%;
+	display: flex;
+}
+.heading_navbar li{
+	padding-left: 10%;
+	display: inline;
+	width: 100%;
+	}
+.heading_navbar a:link,a:visited{
+	font-weight: bold;
+	color: darkgray;
+	text-align: center;
+	text-decoration: none;
+}
+.heading_navbar a:hover,a:active{
+	color: dimgray;
+}
+.body{
+	background-color:ghostwhite;
+	width: 100%;
+	height: 2000px;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.abstract{
+	width: 40%;
+	height: 1950px;
+	background-color: white;
+	display: flex;
+	flex-flow: column;
+	flex-direction: column;
+	
+}
+.firstPicture{
+	background-color: #A9A9A9;
+}
+.firstPicture {
+	width: 30%;
+	border-radius: 100px;
+	height: 180px;
+	left: 16%;
+	float: right;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 70px;
+	border: 10px solid ghostwhite;
+}
+.secondPicture img{
+	width: 20%;
+	border-radius: 100px;
+	height: 120px;
+	left: 12%;
+	float: right;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 70px;
+	border: 10px solid ghostwhite;
+	margin-top: 200px;
+}
+
+.firstCharacters{
+	float: right;
+	position: relative;
+	left: 15%;
+	top: 150px;
+}
+.anotherCharacters{
+	float: right;
+	position: relative;
+	left: 5%;
+	top: 280px;
+}
+.anotherPicture img{
+	width: 20%;
+	border-radius: 100px;
+	height: 120px;
+	left: 12%;
+	float: right;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 70px;
+	border: 10px solid ghostwhite;
+	margin-top: 50px;
+}
+.lestCharacters{
+	float: right;
+	position: relative;
+	left: 5%;
+	top: 120px;
+}
+.year p{
+	width: 10%;
+	border-radius: 100px;
+	left: 7%;
+	float: right;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 70px;
+	border: 10px solid ghostwhite;
+	margin-top: 50px;
+	text-align: center;
+}
+.introduce{
+	width: 40%;
+	height: 1950px;
+	background-color: white;
+	margin-left: 0.5%;
+}
+.bottom{
+	background-color: black;
+	width: 100%;
+}
+.btop{
+	width: 100%;
+	text-align: center;
+}
+.bbttom{
+	text-align: center;
+	width: 100%;
+}
+.btop a:hover,a:active{
+	color: dimgray;
+}
+.btop a:link,a:visited{
+	font-weight: bold;
+	color: darkgray;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 10%;
+}
