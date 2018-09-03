@@ -57,6 +57,7 @@ body{
 }
 .essay{
 	width: 60%;
+	height: 1100px;
 }
 
 .date{
@@ -203,3 +204,40 @@ body{
 	display: inline;
 	}
 
+#div1{
+			width:100%;
+			height:420px;
+			border:1px solid gray;
+		}
+		#div2{
+			width: 90%;
+			height: 390px;
+			margin:auto;
+			margin-top: 15px;
+		}
+		#div21{
+			width: 90%;
+			height: 72px;
+			margin:auto;
+			line-height: 72px; 
+			margin:auto;
+			display: flex;
+			justify-content: space-between;
+		}
+		#div22{
+			width: 100%;
+			height: 310px;
+			margin:auto;
+		}
+		#table1{
+			width: 100%;
+			height: 30px;
+			border-spacing: 18px 33px;
+		}
+		#table2{
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			border-spacing: 20px 0px;
+		}
+		

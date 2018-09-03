@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../css/home_page.css"/>
+		
 	</head>
 	<body>
 		<div class="container">
@@ -37,68 +38,31 @@
 									<div class="border"><a>其他文章</a></div>
 								</div>
 								<div class="day">
-									<table width="100%"align="center" >
-										<tr align="center" style="border-bottom: 1px solid #696969;">
-											<td style="color: palevioletred;"><</td>
-												<td style="color: palevioletred;text-align: center;" colspan="5">2015.04</td>
-												<td style="color: palevioletred;">></td>
-										</tr>
-										<tr align="center">
-											<td>M</td>
-											<td>T</td>
-											<td>W</td>
-											<td>T</td>
-											<td>F</td>
-											<td>S</td>
-											<td>S </td>
-											
-										</tr>
-										<tr align="center" >
-											<td>1</td>
-											<td>2</td>
-											<td>3</td>
-											<td>4</td>
-											<td>5</td>
-											<td>6</td>
-											<td>7</td>
-											
-										</tr>
-										<tr align="center">
-											<td>8</td>
-											<td>9</td>
-											<td>10</td>
-											<td>11</td>
-											<td>12</td>
-											<td>13</td>
-											<td>14</td>
-											
-										</tr>
-										<tr align="center">
-											<td>15</td>
-											<td>16</td>
-											<td>17</td>
-											<td>18</td>
-											<td>19</td>
-											<td>20</td>
-											<td>21</td>
-											
-										</tr>
-										<tr align="center">
-											<td>22</td>
-											<td>23</td>
-											<td>24</td>
-											<td>25</td>
-											<td>26</td>
-											<td>27</td>
-											<td>28</td>
-											
-										</tr>
-										<tr align="center">
-											<td>29</td>
-											<td>30</td>
-											<td>31</td>
-										</tr>
-									</table>
+									<div id="div1">
+	<div id="div2">
+		<div id="div21">
+		<a onclick="lastMon()"><</a>
+		<text id="yearAndMon"></text>
+		<a onclick="nextMon()">></a>	
+		</div>
+		<div id="div22">
+			<table id="table2">
+				<tr>
+					<td>S</td>
+					<td>W</td>
+					<td>T</td>
+					<td>W</td>
+					<td>T</td>
+					<td>F</td>
+					<td>S</td>
+				</tr>
+			</table>
+			<table id="table1"></table>
+		</div>
+	</div>
+
+								</div>
+								<script src="../js/home_page.js"></script>
 								</div>
 								<div class="write">
 									<p style="font-size:150% ;color: #A9A9A9;">tops</p>
