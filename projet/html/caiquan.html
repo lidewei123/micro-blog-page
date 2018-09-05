@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/vue.min.js"></script>
+	</head>
+	<body>
+		<div id="myApp">
+			
+			<button v-on:click="btnClick('石头')">石头</button>
+			<button v-on:click="btnClick('剪刀')">剪刀</button>
+			<button v-on:click="btnClick('布')">布</button>
+			<p>电脑出{{what}}</p>
+			<p>您{{mygame}}</p>
+			<p>赢了{{num}}次</p>
+		</div>
+		<script>
+			var myApp=new Vue({
+				el:'#myApp',
+				data:{
+					mygame:'',
+					what:'',
+					num:0
+				},
+				methods:{
+					btnClick:function(pname){
+						
+						var a=["石头","剪刀","布"];
+						var vlue=a[Math.floor(Math.random()*a.length)];
+							this.what=vlue;
+						if(pname=="石头"&&vlue=="剪刀"||pname=="剪刀"&&vlue=="布"||pname=="布"&&vlue=="石头"){
+							this.mygame="赢了";
+							this.num++;
+						}else if(pname==vlue){
+							this.mygame="平了";
+						}else {
+							this.mygame="输了";
+						}
+					},
+				},
+			});
+		</script>
+	</body>
+</html>
